@@ -3,20 +3,29 @@
 body{
 
     background-color: black;
+    display: flex;
+    justify-content: center;
 }
 
 .main{
 
-    padding: 5% 15%;
+    background-color: rgb(22, 22, 22);
+    padding: 10%;
+    margin: 30%;
+    border-radius: 3%;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
     gap: 82px;
     flex-direction: column;
 
 }
 
 .title{
+
+    
 
     display: flex;
     flex-direction: column;
@@ -39,29 +48,42 @@ body{
     color: greenyellow;
 }
 
+.links{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 50%
+
+}
+
 .links__deco{
 
     display: flex;
     justify-content: center;
-    align-items: center;
+    text-align: center;
     text-decoration: none;
-    gap: px;
-    /* background-color: red; */
-    /* height: 20px; */
-    width: 90%;
+    gap: 10px;
+    
+    
+
+    
     text-align: center;
     border-radius: 16px;
     font-size: 1.5rem;
     padding: 24px;
     color: white;
+    background-color: rgb(51, 50, 50);
     
     font-weight: 400;
-    border: 2px solid;
+   
     transition: .5s;
 }
 
 .links__deco:hover{
 
     transform: scale(1.1);
-    color: greenyellow;
+    background-color: greenyellow;
+    color: black;
 }
