@@ -143,10 +143,30 @@ body{
 
 @media screen and (max-width: 728px){
       .main{
-
+        flex-direction: column;
+        gap: 20px;
         width: auto;
         }
-      
+
+    .me{
+        width: 200px;
+        height: 200px;
+        
+    }
+
+    .title{
+
+        text-align: center;
+    
+    }
+
+    .links{
+        width: 100%;
+    }
+
+    .links__deco{
+        width: 100%;
+    }
 
   }
 
