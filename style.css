@@ -36,6 +36,8 @@ body{
 
     gap: 82px;
     flex-direction: column;
+
+    transition: .5s;
     
 
 }
