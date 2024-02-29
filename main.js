@@ -1,4 +1,4 @@
-const myImage = document.querySelector("img");
+/*const myImage = document.querySelector("img");
 
 myImage.onclick = () => {
   const mySrc = myImage.getAttribute("src");
@@ -8,3 +8,10 @@ myImage.onclick = () => {
     myImage.setAttribute("src", "./assets/image/me3.png");
   }
 };
+*/
+
+const tile = document.querySelector(".tile");
+
+tile.addEventListener("click", function () {
+  tile.classList.toggle("is-flipped");
+});
